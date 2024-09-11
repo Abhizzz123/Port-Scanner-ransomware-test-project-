@@ -3,7 +3,7 @@
 # Check if pip is installed
 if ! command -v pip &> /dev/null
 then
-    python -m ensurepip
+    python3 -m ensurepip
 fi
 
 # Install cryptography module using pip and suppress details
