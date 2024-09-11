@@ -16,7 +16,7 @@ print(files)
 
 key = Fernet.generate_key()
 
-with open (".thekey.key","wb") as thekey:
+with open ("thekey.key","wb") as thekey:
         thekey.write(key)
 
 for file in files:
